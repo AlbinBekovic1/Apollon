@@ -1,23 +1,4 @@
-/*___________________________________________________________________________________________________________________________________________________
- _ jquery.mb.components                                                                                                                             _
- _                                                                                                                                                  _
- _ file: jquery.mb.bgndGallery.src.js                                                                                                               _
- _ last modified: 21/06/15 15.53                                                                                                                    _
- _                                                                                                                                                  _
- _ Open Lab s.r.l., Florence - Italy                                                                                                                _
- _                                                                                                                                                  _
- _ email: matteo@open-lab.com                                                                                                                       _
- _ site: http://pupunzi.com                                                                                                                         _
- _       http://open-lab.com                                                                                                                        _
- _ blog: http://pupunzi.open-lab.com                                                                                                                _
- _ Q&A:  http://jquery.pupunzi.com                                                                                                                  _
- _                                                                                                                                                  _
- _ Licences: MIT, GPL                                                                                                                               _
- _    http://www.opensource.org/licenses/mit-license.php                                                                                            _
- _    http://www.gnu.org/licenses/gpl.html                                                                                                          _
- _                                                                                                                                                  _
- _ Copyright (c) 2001-2015. Matteo Bicocchi (Pupunzi);                                                                                              _
- ___________________________________________________________________________________________________________________________________________________*/
+
 
 ( function( jQuery ) {
 
@@ -46,8 +27,6 @@
 			preserveWidth: false,
 			placeHolder: "",
 
-			//Path to the folder containing the thumbnails and ID of the DOM element that should contains them.
-			// Thumbnail should have the same name of the corresponding image
 			thumbs: {
 				folderPath: "",
 				placeholder: ""
@@ -59,14 +38,6 @@
 			onPlay: function( opt ) {},
 			onNext: function( opt ) {},
 			onPrev: function( opt ) {}
-
-			// idx = the zero based index of the displayed photo
-			// opt=the options relatives to this component instance you can manipulate on the specific event
-
-			// for example, if you want to reverse the enter/exit effect once the previous button is clicked:
-			// you can change the opt.effect onPrev event : opt.effect = "slideRight"
-			// onNext:function(opt){opt.effect = "slideLeft"}
-			// onPrev:function(opt){opt.effect = "slideRight"}
 
 		},
 

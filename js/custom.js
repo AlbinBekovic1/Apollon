@@ -1,6 +1,6 @@
 (function($) {
 
-  // Back to top button
+  // Bouton haut de page
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -23,7 +23,7 @@
     $(".navbar-collapse.collapse").removeClass('in');
   });
 
-  //Home Background Slider
+  //Image de fond accueil
 
   $(function() {
 
@@ -49,12 +49,6 @@
         exitTiming: "ease-in"
       },
 
-      // If your server allow directory listing you can use:
-      // (however this doesn't work locally on your computer)
-
-      //folderPath:"testImage/",
-
-      // else:
 
       images: [
         "img/bgslides/1.jpg",
@@ -73,7 +67,7 @@
 
   });
 
-  // featured text
+  // texte en vedette
   $("#rotator .1strotate").textrotator({
     animation: "dissolve",
     speed: 4000
@@ -83,7 +77,7 @@
     speed: 4000
   });
 
-  // Fixed navbar
+  // barre de navigation
   $(window).scroll(function() {
 
     var scrollTop = $(window).scrollTop();
@@ -99,7 +93,7 @@
   });
 
 
-  //parallax
+  //parallaxe
   if ($('#parallax1').length || $('#parallax2').length) {
 
     $(window).stellar({
@@ -158,7 +152,7 @@
     interval: 4000
   })
 
-  //works
+  //nos concerts
   $(function() {
     Grid.init();
   });

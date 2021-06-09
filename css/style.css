@@ -1,9 +1,3 @@
-/*
-  Theme Name: Alstar
-  Theme URL: https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/
-  Author: BootstrapMade.com
-  Author URL: https://bootstrapmade.com
-*/
 
 /* ================================
 Imports
@@ -109,8 +103,8 @@ margin, padding
 	margin-top: 40px;
 }
 
-/* Ouho */
-/* Back to top buttonnn */
+
+/* bouton haut de page */
 .back-to-top {
   position: fixed;
   display: none;
@@ -134,7 +128,7 @@ margin, padding
 }
 
 /* ================================
-Navbar
+barre de navigation
 ================================= */
 
 nav.navbar{
@@ -180,7 +174,7 @@ nav.navbar.fixed-to-top{
 	outline: 0;
 }
 
-/* brand / logo */
+/* logo */
 .navbar-default .navbar-brand{
 	color: #fff;
 	text-transform: uppercase;
@@ -189,7 +183,7 @@ nav.navbar.fixed-to-top{
 }
 
 /* ================================
-Home sections
+Accueil
 ================================= */
 
 .home-section {
@@ -197,7 +191,7 @@ Home sections
 	padding: 150px 0px 150px 0px;
 }
 
-/* --- heading --- */
+/* --- header --- */
 .section-heading {
 	margin-bottom: 50px;
 }
@@ -313,7 +307,7 @@ Intro
 }
 
 /* ================================
-About
+A propos
 ================================= */
 
 #about .about-img {
@@ -430,7 +424,7 @@ Services
 
 
 /* ================================
-Works
+Nos concerts
 ================================= */
 .og-grid {
 	list-style: none;
@@ -616,7 +610,7 @@ Works
 }
 
 /* ================================
-Contact
+Nous contacter
 ================================= */
 
 .validation {
@@ -663,7 +657,7 @@ ul.clients li {
 
 
 /* ================================
-Bottom widget
+Boutons du bas
 ================================= */
 #bottom-widget {
   overflow: hidden;
@@ -706,7 +700,7 @@ footer a:hover {
 }
 
 /* ================================
-more media queries
+plus de requêtes médiatiques
 ================================= */
 
 @media (max-width:768px) {
